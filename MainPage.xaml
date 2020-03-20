@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TopModel.MainPage" NavigationPage.HasNavigationBar="False" BackgroundImageSource="model1">
+
+
+    <ScrollView>
+
+        <StackLayout>
+
+            <StackLayout TranslationY="40">
+                <Image Source="xamarin" Aspect="AspectFit" HeightRequest="100"/>
+            </StackLayout>
+
+
+            <StackLayout TranslationY="150">
+
+                <Frame CornerRadius="20" HeightRequest="40" BackgroundColor="Transparent" BorderColor="White">
+                    <Entry Keyboard="Text" Placeholder="Name"  PlaceholderColor="White"/>
+                </Frame>
+
+                <Frame CornerRadius="20" HeightRequest="40" BackgroundColor="Transparent" BorderColor="White" TranslationY="20">
+                    <Entry Keyboard="Text" Placeholder="Name"  PlaceholderColor="White"/>
+                </Frame>
+
+                <Frame CornerRadius="20" HeightRequest="40" BackgroundColor="Transparent" BorderColor="White" TranslationY="45">
+                    <Entry Keyboard="Text" Placeholder="Name"  PlaceholderColor="White"/>
+                </Frame>
+
+            </StackLayout>
+            <StackLayout TranslationY="220">
+            <Button Text="Sign In" TextColor="White" BackgroundColor="Orange" CornerRadius="20"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="Mot passe oublier?" TextColor="Orange" TranslationY="230" FontSize="15" FontAttributes="Bold" TranslationX="-20" HorizontalOptions="EndAndExpand"/>
+            </StackLayout>
+            
+        </StackLayout>
+
+    </ScrollView>
+</ContentPage>
